@@ -1,0 +1,1311 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1568840033378,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "b7385e75-1999-4c38-9755-6f23e65ffd67",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Cisco Switch Analysis",
+      "namePath": "Custom Dashboards",
+      "rank": 668,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "2a41f813-7a96-4cf0-ace6-e8c383b25024",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "3d206e47-626a-468b-a93f-932ea5d21813"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "eba67d94-e2b0-4f29-bea1-f7248ef69fab"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "8f878f12-34dc-4c73-ac33-636e9fe83567"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "eabb5bdf-e705-4d3b-9bf5-63f8c875118e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "59654994-7d1a-484a-817f-f1b75ea66651"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "21cbe572-127f-4f16-969c-df4e00567d6c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "49e57827-ef2b-4752-8d74-6bc733f9f64b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "widgetIdReceiver": "6ee5fe21-f981-42ef-89cf-22c85205d747"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "CDP IP",
+                     "metricKey": "properties|attached_cdp_ip_addresses",
+                     "metricName": "Properties|Directly Attached CDP IP",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "MAC ",
+                     "metricKey": "properties|directly_attached_mac_addresses",
+                     "metricName": "Properties|Directly Attached MAC Addresses",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "OID",
+                     "metricKey": "properties|label_oid",
+                     "metricName": "Properties|Label OID",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Mgmt IP",
+                     "metricKey": "properties|management_ip",
+                     "metricName": "Properties|Management IP",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "properties|model",
+                     "metricName": "Properties|Model",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Serial",
+                     "metricKey": "properties|serial_number",
+                     "metricName": "Properties|Serial Number",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Description",
+                     "metricKey": "properties|serial_number_description",
+                     "metricName": "Properties|Serial Number Description",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Uptime (days)",
+                     "metricKey": "properties|system_uptime",
+                     "metricName": "Properties|System Uptime (d)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Object List"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+            "states": [{
+               "key": "permResGrid_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_022767bc-6cb3-43f7-a7cc-5fb0114b972f",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A257.5390625%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A533.40234375%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A117.92578125%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A119.298828125%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A345.15234375%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A292.3828125%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A291.224609375%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A137.728515625%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A417.873046875%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_properties%252525257Cserial_number_description%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_properties%252525257Cserial_number_description"
+            }],
+            "title": "Object List",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 5
+            },
+            "height": 324,
+            "id": "3d206e47-626a-468b-a93f-932ea5d21813",
+            "states": [
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_3d206e47-626a-468b-a93f-932ea5d21813",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_3d206e47-626a-468b-a93f-932ea5d21813",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_viewerType_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_3d206e47-626a-468b-a93f-932ea5d21813",
+                  "value": "s%3ArelationshipTree"
+               }
+            ],
+            "title": "Object Relationship (Advanced)",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 5
+            },
+            "height": 324,
+            "id": "eba67d94-e2b0-4f29-bea1-f7248ef69fab",
+            "states": [
+               {
+                  "key": "permViewMode_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eba67d94-e2b0-4f29-bea1-f7248ef69fab",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eba67d94-e2b0-4f29-bea1-f7248ef69fab",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eba67d94-e2b0-4f29-bea1-f7248ef69fab",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A187.859375%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A334.048828125%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel12636-1",
+                     "isStringMetric": false,
+                     "metricKey": "device_status|cpu_utilization",
+                     "metricName": "Device Status|CPU Utilization",
+                     "metricUnitId": "percent",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cisco Networking Switch",
+                     "unit": "%",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "CPU Utilization (for selected Switch)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 11
+            },
+            "height": 324,
+            "id": "8f878f12-34dc-4c73-ac33-636e9fe83567",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_8f878f12-34dc-4c73-ac33-636e9fe83567",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_8f878f12-34dc-4c73-ac33-636e9fe83567",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_8f878f12-34dc-4c73-ac33-636e9fe83567",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_8f878f12-34dc-4c73-ac33-636e9fe83567",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_8f878f12-34dc-4c73-ac33-636e9fe83567",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "CPU Utilization (for selected Switch)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel13799-1",
+                     "isStringMetric": false,
+                     "metricKey": "device_status|memory_utilization",
+                     "metricName": "Device Status|Memory Utilization",
+                     "metricUnitId": "percent",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cisco Networking Switch",
+                     "unit": "%",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Memory Utilization (for selected Switch)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 11
+            },
+            "height": 324,
+            "id": "eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_eabb5bdf-e705-4d3b-9bf5-63f8c875118e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Memory Utilization (for selected Switch)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel14978-1",
+                     "isStringMetric": false,
+                     "metricKey": "aggregate_port_traffic|total_throughput_total",
+                     "metricName": "Aggregate Port Traffic|Total Throughput",
+                     "metricUnitId": "kbitps",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cisco Networking Switch",
+                     "unit": "kbit/s",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Total Throughput (on selected Switch)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 11
+            },
+            "height": 324,
+            "id": "59654994-7d1a-484a-817f-f1b75ea66651",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_59654994-7d1a-484a-817f-f1b75ea66651",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_59654994-7d1a-484a-817f-f1b75ea66651",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_59654994-7d1a-484a-817f-f1b75ea66651",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_59654994-7d1a-484a-817f-f1b75ea66651",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b7385e75-1999-4c38-9755-6f23e65ffd67_59654994-7d1a-484a-817f-f1b75ea66651",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Total Throughput (on selected Switch)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_down_percent",
+                        "metricName": "Aggregate Fan Status|Fan Status Down",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_in_error_percent",
+                        "metricName": "Aggregate Fan Status|Fan Status In Error",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_up_percent",
+                        "metricName": "Aggregate Fan Status|Fan Status Up",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_count",
+                        "metricName": "Aggregate Fan Status|Total Fans",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_down_count",
+                        "metricName": "Aggregate Fan Status|Total Fans Down",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-6",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_in_error_count",
+                        "metricName": "Aggregate Fan Status|Total Fans In Error",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-7",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_fan_status|fan_status_up_count",
+                        "metricName": "Aggregate Fan Status|Total Fans Up",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-8",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_down_percent",
+                        "metricName": "Aggregate Port Status|Port Status Down",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-9",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_in_error_percent",
+                        "metricName": "Aggregate Port Status|Port Status In Error",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-10",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_up_percent",
+                        "metricName": "Aggregate Port Status|Port Status Up",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-11",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_count",
+                        "metricName": "Aggregate Port Status|Total Ports",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-12",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_down_count",
+                        "metricName": "Aggregate Port Status|Total Ports Down",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-13",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_in_error_count",
+                        "metricName": "Aggregate Port Status|Total Ports In Error",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-14",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_status|port_status_up_count",
+                        "metricName": "Aggregate Port Status|Total Ports Up",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-15",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_down_percent",
+                        "metricName": "Aggregate Power Supply Status|Power Supply Status Down",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-16",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_in_error_percent",
+                        "metricName": "Aggregate Power Supply Status|Power Supply Status In Error",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-17",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_up_percent",
+                        "metricName": "Aggregate Power Supply Status|Power Supply Status Up",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-18",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_count",
+                        "metricName": "Aggregate Power Supply Status|Total Power Supplies",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-19",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_down_count",
+                        "metricName": "Aggregate Power Supply Status|Total Power Supplies Down",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-20",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_in_error_count",
+                        "metricName": "Aggregate Power Supply Status|Total Power Supplies In Error",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-21",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_power_supply_status|power_supply_status_up_count",
+                        "metricName": "Aggregate Power Supply Status|Total Power Supplies Up",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-22",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_down_percent",
+                        "metricName": "Aggregate Sensor Status|Sensor Status Down",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-23",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_in_error_percent",
+                        "metricName": "Aggregate Sensor Status|Sensor Status In Error",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-24",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_up_percent",
+                        "metricName": "Aggregate Sensor Status|Sensor Status Up",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-25",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_count",
+                        "metricName": "Aggregate Sensor Status|Total Sensors",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-26",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_down_count",
+                        "metricName": "Aggregate Sensor Status|Total Sensors Down",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-27",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_in_error_count",
+                        "metricName": "Aggregate Sensor Status|Total Sensors In Error",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18486-28",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_sensor_status|sensor_status_up_count",
+                        "metricName": "Aggregate Sensor Status|Total Sensors Up",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Status Scoreboard (for selected Switch)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 6,
+               "x": 1,
+               "y": 17
+            },
+            "height": 381,
+            "id": "21cbe572-127f-4f16-969c-df4e00567d6c",
+            "title": "Status Scoreboard (for selected Switch)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inerrpackets_average",
+                        "metricName": "Aggregate Port Traffic|Average Error Packet Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outerrpackets_average",
+                        "metricName": "Aggregate Port Traffic|Average Error Packet Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|indiscards_average",
+                        "metricName": "Aggregate Port Traffic|Average Packet Discards Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outdiscards_average",
+                        "metricName": "Aggregate Port Traffic|Average Packet Discards Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inpackets_average",
+                        "metricName": "Aggregate Port Traffic|Average Packets Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-6",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outpackets_average",
+                        "metricName": "Aggregate Port Traffic|Average Packets Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-7",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inbound_throughput_average",
+                        "metricName": "Aggregate Port Traffic|Average Received Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-8",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outbound_throughput_average",
+                        "metricName": "Aggregate Port Traffic|Average Sent Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-9",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inerrpackets_total",
+                        "metricName": "Aggregate Port Traffic|Total Error Packet Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-10",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outerrpackets_total",
+                        "metricName": "Aggregate Port Traffic|Total Error Packet Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-11",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|indiscards_total",
+                        "metricName": "Aggregate Port Traffic|Total Packet Discards Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-12",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outdiscards_total",
+                        "metricName": "Aggregate Port Traffic|Total Packet Discards Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-13",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inpackets_total",
+                        "metricName": "Aggregate Port Traffic|Total Packets Received",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-14",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outpackets_total",
+                        "metricName": "Aggregate Port Traffic|Total Packets Sent",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-15",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|inbound_throughput_total",
+                        "metricName": "Aggregate Port Traffic|Total Received Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-16",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|outbound_throughput_total",
+                        "metricName": "Aggregate Port Traffic|Total Sent Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22425-17",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "aggregate_port_traffic|total_throughput_total",
+                        "metricName": "Aggregate Port Traffic|Total Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Performance Scoreboard (for selected Switch)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 6,
+               "x": 7,
+               "y": 17
+            },
+            "height": 381,
+            "id": "49e57827-ef2b-4752-8d74-6bc733f9f64b",
+            "title": "Performance Scoreboard (for selected Switch)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23539-1",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "device_status|collecting",
+                        "metricName": "Device Status|Collecting",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23539-2",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "device_status|reachable",
+                        "metricName": "Device Status|Reachable",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel25803-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cisco Networking Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "General Scoreboard (for selected Switch)",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 5
+            },
+            "height": 324,
+            "id": "6ee5fe21-f981-42ef-89cf-22c85205d747",
+            "title": "General Scoreboard (for selected Switch)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "CiscoNetworkingAdapter",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "cisco_networking_switch"
+   }]},
+   "uuid": "3778d827-31fe-4f5c-88e8-2475192d94e3"
+}
